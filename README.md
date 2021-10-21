@@ -9,3 +9,6 @@ e. El cubo se queda estático y la esfera cae contra el plano
 f. El cubo atraviesa el plano y la esfera cae contra el plano  
 g. El cubo cae contra el plano pero no es capaz de rotar en el eje XZ y la esfera cae de manera convencional contra el plano  
 
+## Ejercicio 02
+
+![alt text](gif.gif)
