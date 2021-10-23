@@ -7,6 +7,7 @@ public class ThirdPersonController : MonoBehaviour
     public CharacterController controller;
     public float speed = 6f;
     public Transform cam;
+    // Start is called before the first frame update
 
     // Update is called once per frame
     void Update()
@@ -14,7 +15,6 @@ public class ThirdPersonController : MonoBehaviour
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
         Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
-
         if(direction.magnitude >= 0.1f) {
             float angulodeapuntado = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
             transform.rotation = Quaternion.Euler(0f, angulodeapuntado, 0f);
