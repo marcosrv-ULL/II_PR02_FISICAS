@@ -15,4 +15,4 @@ g. El cubo cae contra el plano pero no es capaz de rotar en el eje XZ y la esfer
 
 ## Ejercicio 03
 
-![alt text](gif2.gif)
+![alt text](II_pr02_ejer3.gif)
